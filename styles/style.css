@@ -27,7 +27,6 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 90px;
-   border: 1px solid black;
 
    
     
@@ -52,9 +51,9 @@ font-size: 20px;
  display: flex;
  justify-content: center;
  background-size: 1500px;
+font-size: 30px;
  align-items: center;
  background-repeat: no-repeat;
-font-size: 30px;
 
 }
 #principal{
@@ -80,13 +79,13 @@ float: 900px;
    justify-content: space-between; 
    font-size: 19px;
    width: 98%;
-   height: 599px;
+   height: 400px;
    color: gray;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
  }
 .card{
 width: 500px;
-height: 200px;
+height: 300px;
 display: flex;
 flex-direction: column;
 text-align: center;
@@ -94,10 +93,36 @@ justify-content: center;
 align-items: center;
 
 }
-h1{
+.title{
     color: greenyellow;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 } 
 #content{
     background-color: #1AB16A;
+    width: 95%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#main-second{
+    color: white;
+    border-bottom: 2px solid white;
+    width: 380px ;
+    margin-bottom: 150px;
+}
+#main-second-content{
+    color: white;
+    width: 55%;
+}
+#icon-spotify{
+    width: 100px;
+    height: 100px;
+}
+#app-spotify{
+    width:290px;
+    height:500px;
+}
+#content-left{
+    width:400px;
 }
